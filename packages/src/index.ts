@@ -1,5 +1,3 @@
-function add<T extends number>(a: T, b: T) {
-  return a + b;
-}
+import useArcoTable from './useArcoTable';
 
-export default add;
+export { useArcoTable };
