@@ -1,6 +1,6 @@
 {
-  "name": "@easyevery/ez-lib-template",
-  "title": "ez-lib-template",
+  "name": "@easyevery/ez-hooks",
+  "title": "ez-hooks",
   "version": "0.0.1",
   "description": "a storage library",
   "author": {
@@ -11,7 +11,7 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/easyevery/ez-lib-template"
+    "url": "https://github.com/easyevery/ez-hooks"
   },
   "scripts": {
     "build": "cd packages && npm run build",

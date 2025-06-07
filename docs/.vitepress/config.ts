@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress';
 
 //github仓库名称
-const repo = 'ez-lib-template';
+const repo = 'ez-hooks';
 
 const isProd = process.env.NODE_ENV === 'production';
 const base = isProd ? `/${repo}/` : '/';
