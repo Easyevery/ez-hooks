@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "dbaeumer.vscode-eslint",
+        "raotao.transform-json",
+        "esbenp.prettier-vscode",
+        "eamodio.gitlens",
+        "gruntfuggly.todo-tree"
+    ]
+}

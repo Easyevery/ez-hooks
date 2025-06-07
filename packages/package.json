@@ -1,0 +1,43 @@
+{
+  "name": "@easyevery/ez-lib-template",
+  "title": "ez-lib-template",
+  "version": "0.0.1",
+  "description": "a storage library",
+  "license": "MIT",
+  "author": {
+    "name": "raotaohub",
+    "email": "raotao@outlook.com",
+    "url": "https://github.com/raotaohub"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/easyevery/ez-lib-template"
+  },
+  "publishConfig": {
+    "access": "public",
+    "publishConfig": {
+      "registry": "https://registry.npmjs.org/"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    "import": "./dist/index.js",
+    "types": "./dist/index.d.ts"
+  },
+  "scripts": {
+    "build": "pnpm run build-fast -- --dts-resolve",
+    "build-fast": "tsup src/index.ts --format esm",
+    "prepublishOnly": "pnpm run build",
+    "test": "vitest run --passWithNoTests",
+    "test:coverage": "vitest run --passWithNoTests --coverage"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0"
+  }
+}
